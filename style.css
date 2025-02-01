@@ -1,57 +1,66 @@
-body{
+body {
     background-color: white;
 }
-.main{
+
+.main {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     /* border: 2px solid black; */
 }
-.first{
+
+.first {
     margin-left: 10px;
     font-size: 150%;
 }
-.second{
+
+.second {
     margin-right: 13%;
     width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: 100%;
-   
+
 }
-.photo1{
+
+.photo1 {
     margin-left: 44%;
 
 }
-.third{
+
+.third {
     margin-right: 10%;
     margin-right: 10px;
     border: 2px solid black;
     border-color: pink;
-    
-    
+
+
 
 }
-.div1{
+
+.div1 {
     font-size: 200%;
     width: 100%;
     display: flex;
     justify-content: center;
 
 }
-.div2{
+
+.div2 {
     text-align: center;
-    
+
 }
-.div3{
+
+.div3 {
     font-size: 200%;
     text-align: center;
     margin-top: 10%;
     margin-bottom: 10%;
-    
+
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -59,6 +68,7 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 .box {
     width: 100px;
     height: 50px;
@@ -70,74 +80,90 @@ body{
     font-weight: bold;
     border: 2px solid white;
 }
-.div4{
+
+.div4 {
     font-size: 30px;
     text-align: center;
     margin-top: 10%;
 }
-.photo2{
+
+.photo2 {
     margin-left: 47%;
     margin-top: 5%;
 
 
 }
-.div5{
+
+.div5 {
     text-align: center;
     margin-top: 3%;
     font-size: 120%;
 }
-.div6{
+
+.div6 {
     margin-left: 48%;
     margin-bottom: 10%;
 }
-.div7{
+
+.div7 {
     margin-left: 44%;
     font-size: 25px;
     margin-bottom: 5%;
 }
-.Contact{
+
+.Contact {
     margin-left: 30%;
     margin-bottom: 2%;
 }
-.Contact input{
+
+.Contact input {
     height: 20px;
     width: 580px;
 }
-.Contact1{
+
+.Contact1 {
     margin-left: 30%;
     margin-bottom: 2%;
 }
-.Contact1 input{
+
+.Contact1 input {
     height: 20px;
     width: 580px;
 }
-.Contact2{
+
+.Contact2 {
     margin-left: 30%;
     margin-bottom: 2%;
 }
-.Contact2 input{
+
+.Contact2 input {
     height: 20px;
     width: 580px;
 }
-.Contact3{
+
+.Contact3 {
     margin-left: 30%;
     margin-bottom: 1%;
-    
+
 }
-.Contact3 input{
+
+.Contact3 input {
     height: 100px;
     width: 580px;
 }
-.div8{
+
+.div8 {
     margin-left: 45%;
     font-size: 25px;
 }
-.button{
+
+.button {
     background-color: pink;
     margin-left: 47%;
     width: 80px;
     height: 30px;
 }
+
 @media (max-width: 768px) {
     .main {
         flex-direction: column;
@@ -158,17 +184,27 @@ body{
         width: 80%;
     }
 
-    .div1, .div3, .div4, .div7, .div8 {
+    .div1,
+    .div3,
+    .div4,
+    .div7,
+    .div8 {
         font-size: 150%;
     }
 }
 
 @media (max-width: 480px) {
-    .first, .second {
+
+    .first,
+    .second {
         font-size: 120%;
     }
 
-    .div1, .div3, .div4, .div7, .div8 {
+    .div1,
+    .div3,
+    .div4,
+    .div7,
+    .div8 {
         font-size: 120%;
     }
 
@@ -177,4 +213,3 @@ body{
         height: 40px;
     }
 }
-
