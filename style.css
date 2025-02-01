@@ -138,4 +138,43 @@ body{
     width: 80px;
     height: 30px;
 }
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .second {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 80%;
+    }
+
+    .div1, .div3, .div4, .div7, .div8 {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 480px) {
+    .first, .second {
+        font-size: 120%;
+    }
+
+    .div1, .div3, .div4, .div7, .div8 {
+        font-size: 120%;
+    }
+
+    .box {
+        width: 90%;
+        height: 40px;
+    }
+}
 
